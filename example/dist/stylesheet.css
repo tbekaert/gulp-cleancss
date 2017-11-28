@@ -1,0 +1,42 @@
+.foo {
+  background: white;
+}
+
+.account {
+  background: white;
+}
+
+.account .account__title {
+  background: white;
+}
+
+.account .account__content {
+  background: white;
+}
+
+.account .account__title,
+.account .account__content {
+  background: white;
+}
+
+/* This is a comment */
+
+@media (min-width: 640px) {
+  .baz {
+    background: white;
+  }
+}
+
+@media (min-width: 940px) {
+  /**
+   * This is a multiline comment
+   */
+
+  #bazzes {
+    background: white;
+  }
+
+  tr td {
+    background: red;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "gulp-cleancss",
+  "version": "1.0.0",
+  "description": "Gulp Custom plugin to remove unused css",
+  "main": "index.js",
+  "keywords": [
+    "gulpplugin",
+    "css",
+    "clean"
+  ],
+  "author": "Bekaert Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "css": "^2.2.1",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.6",
+    "lodash": "^4.17.4",
+    "through2": "^2.0.0"
+  }
+}
